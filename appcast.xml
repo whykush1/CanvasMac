@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Canvas</title>
+        <link>https://raw.githubusercontent.com/whykush1/CanvasMac/main/appcast.xml</link>
+        <description>Canvas — Live Wallpapers for Mac</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0.0</title>
+            <sparkle:releaseNotesLink>https://github.com/whykush1/CanvasMac/releases/tag/v1.0.0</sparkle:releaseNotesLink>
+            <pubDate>Tue, 02 Jun 2026 02:32:11 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/whykush1/CanvasMac/releases/download/v1.0.0/Canvas.dmg"
+                sparkle:version="1"
+                sparkle:shortVersionString="1.0.0"
+                sparkle:edSignature="RtAFzgUOut32bwHLJKgM8dfiXS9gLpzm88RurtM7ZQ9F+RncM2hGaudjn67wtlRDJH8jYQjGxj+XJiCRFSifBA=="
+                length="196079745"
+                type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>

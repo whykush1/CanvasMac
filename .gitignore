@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+.AppleDouble
+
+# Xcode build artifacts
+app/build/
+app/Canvas.xcodeproj/xcuserdata/
+app/Canvas.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# DMG (too large for git — upload to GitHub Releases instead)
+*.dmg
+*.zip
+Canvas_raw.dmg
+mount_temp/
+build_dmg_temp/
+
+# Sparkle private key (NEVER commit this)
+*.pem
+sparkle_private_key
+
+# Node
+node_modules/
