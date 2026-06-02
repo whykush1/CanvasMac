@@ -1,0 +1,37 @@
+name: Canvas
+options:
+  bundleIdPrefix: com.canvas
+packages:
+  Sparkle:
+    url: https://github.com/sparkle-project/Sparkle
+    from: 2.6.2
+targets:
+  Canvas:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Canvas
+      - path: ../4k Live Wallpapers
+        buildPhase: resources
+    entitlements:
+      path: Canvas/Canvas.entitlements
+    dependencies:
+      - package: Sparkle
+        product: Sparkle
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.canvas.CanvasApp
+      PRODUCT_NAME: Canvas
+      MARKETING_VERSION: 1.2.0
+      CURRENT_PROJECT_VERSION: 12
+      CODE_SIGN_IDENTITY: "-"
+      ENABLE_HARDENED_RUNTIME: YES
+      MACOSX_DEPLOYMENT_TARGET: "14.0"
+      GENERATE_INFOPLIST_FILE: YES
+      INFOPLIST_KEY_LSUIElement: NO
+      INFOPLIST_KEY_LSMultipleInstancesProhibited: YES
+      INFOPLIST_KEY_NSHumanReadableCopyright: "Copyright © 2026 Canvas. All rights reserved."
+      INFOPLIST_KEY_SUFeedURL: "https://raw.githubusercontent.com/whykush1/CanvasMac/main/appcast.xml"
+      INFOPLIST_KEY_SUEnableAutomaticChecks: YES
+      INFOPLIST_KEY_SUScheduledCheckInterval: 86400
+      INFOPLIST_KEY_SUPublicEDKey: "aIvyx+0/GNhurGtEX6oHwmZQ0Ti6StFBAM3QaeZJFtU="

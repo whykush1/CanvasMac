@@ -6,6 +6,19 @@
         <description>Canvas — Live Wallpapers for Mac</description>
         <language>en</language>
         <item>
+            <title>Version 1.2.0</title>
+            <sparkle:releaseNotesLink>https://github.com/whykush1/CanvasMac/releases/tag/v1.2.0</sparkle:releaseNotesLink>
+            <pubDate>Tue, 02 Jun 2026 11:42:12 +0530</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/whykush1/CanvasMac/releases/download/v1.2.0/Canvas.dmg"
+                sparkle:version="12"
+                sparkle:shortVersionString="1.2.0"
+                sparkle:edSignature="LSVWz2nzfGgCGL2RP/8hlsmsFYQvwRnaNM7+gxxrCZ7EZ7ywDYgFVUtLUlMO9rznGlBKLJy6xXIDVom5YcPYAA=="
+                length="196019726"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.0.0</title>
             <sparkle:releaseNotesLink>https://github.com/whykush1/CanvasMac/releases/tag/v1.0.0</sparkle:releaseNotesLink>
             <pubDate>Tue, 02 Jun 2026 02:32:11 +0000</pubDate>
